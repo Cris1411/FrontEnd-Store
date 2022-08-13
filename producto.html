@@ -23,11 +23,35 @@
     </nav>
 
     <main class="contenedor">
-        <h1>Producto</h1>
+        <h1>React JS</h1>
+
+        <div class="camisa">
+            
+            <img class="camisa__imagen" src="/img/3.jpg" alt="imagen del producto">
+            
+            <div class="imagen__contenido">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi aliquid quaerat beatae repudiandae, esse totam exercitationem temporibus eligendi reprehenderit alias omnis, ad ullam veniam quia quae consectetur similique eum?</p>
+            
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar Talle--</option>
+                        <option value="talle">Pequeño</option>
+                        <option value="talle">Mediano</option>
+                        <option value="talle">Grande</option>
+                    </select>
+
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">    
+
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+
+            </div>
+        
+        </div> <!-- .camisa -->
 
     </main>
-    
 </body>
+
 <footer class="footer">
     <p class="footer__texto">FRONTEND STORE - todos los derechos reservados - 2022</p>
 </footer>
