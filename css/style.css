@@ -5,7 +5,6 @@
   --secundarioOscuro: rgb(233, 287, 2);
   --blanco: #fff;
   --negro: #000;
-
   --fuentePrincipal: "Staatliches", cursive;
 }
 
@@ -197,7 +196,7 @@ h3 {
 }
 @media (min-width: 768px) {
     .nosotros__imagen {
-       grid-column: 2 / 3;
+      grid-column: 2 / 3;
     }
 }
 
